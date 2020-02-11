@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(to bottom right, #ffd5e5, #ffffdd);
+}
+
+html {
+    height: 100%;
+}
+
+p {
+    color: #ffffdd;
+    font-size: 2rem;
+}
+
+
+.item.completed {
+    text-decoration: line-through;
+    text-decoration-color: white;
+}
+
+.cardContainer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10rem;
+    
+}
+
+.cardClass {
+    width: 50%;
+    
+}
+
+.cardTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    COLOR: #ffffdd
+}
+
+.label {
+    color: #ffffdd;
+    font-size: 2rem;
+  
+    
+}
+
+.formGroup {
+    display: flex;
+    justify-content: center;
+}
+
+#buttonClass {
+    background-color: #ffd5e5;
+    color: white;
+    border: 3px solid white;
+    padding: .5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: .5rem;
+    border-radius: .5rem;
+}
